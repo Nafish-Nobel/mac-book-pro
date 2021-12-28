@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- tailwndcss link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- fontwasome kit link -->
+    <script src="https://kit.fontawesome.com/6a4feef768.js" crossorigin="anonymous"></script>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Apple Store</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="images/mac1.png"/>
+</head>
+<body>
+
+    <header></header>
+
+    <main>
+        <section>
+
+            <div class="container  mx-auto overflow-hidden my-4">
+                <!-- image part -->
+                <div class="row gx-5">
+                  <div class="col-lg-6">
+                   <div class="p-3">
+                       <img class="img-fluid  mx-auto" src="images/mac1.png" alt="">
+                   </div>
+                  </div>
+
+                  <!-- details part -->
+                  <div class="col-lg-6">
+                    <div class="p-3">
+
+                        <!-- head title -->
+                        <h1 class="text-4xl fw-bold">Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                            
+                        <!-- head paragraph -->
+                        <p class="pt-3">
+                            Apple M1 chip with 8-core CPU with performance cores and 4efficiency
+                            <br>
+                             cores, 7-core Neural Engine 8GB unified memory 256GB SSD 
+                             <br> storage Two Thunderbolt/ USB 4 ports Magic Mouse keyboard-
+                             <br> US English
+                        </p>
+                        
+                        <!-- memory -->
+                        <div class="my-5">
+                            <h2 class="font-bold">Memory</h2>
+
+                            <!-- memory buttons -->
+
+                            <div id="memory">
+                                <button class="mt-1 btn btn-outline-dark">8GB unified memory</button>
+                                <button class="mt-1 btn btn-outline-dark">16GB unified memory</button>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- storage -->
+                        <div class="my-5">
+                            <h2 class="font-bold">Storage</h2>
+
+                            <!-- storage button -->
+                            <div id="storage">
+                                <button class="mt-1 btn btn-outline-dark">256GB SSD storage</button>
+                                <button class="mt-1 btn btn-outline-dark">512GB SSD storage</button>
+                                <button class="mt-1 btn btn-outline-dark">1TB SSD storage</button>
+                            </div>
+                        </div>
+                        
+                        <!-- delevary option -->
+                        <div class="my-5">
+                            <h2 class="font-bold">Choose your delivery option</h2>
+
+                            <!-- delevary button -->
+
+                            <div id="delivery">
+                                <button class="mt-1 btn btn-outline-dark">Friday, Aug 25 Free Prime Delivery</button>
+                                <button class="mt-1 btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+                            </div>
+                        </div>
+
+                        <!-- pricing and cart section -->
+
+                        <div class="mt-5 w-50 pricing">
+
+                            <!-- best price part -->
+                            <div id="basePrice" class="border-bottom py-2 d-flex justify-content-between">
+                                <h5 class="font-semibold">Best Price</h5>
+                                <h5 class="fw-bold">$<span>1299</span></h5>
+                            </div>
+
+                            <!-- Extra Memory Cost part -->
+                            <div id="extraMemoryCost" class="border-bottom py-2 d-flex justify-content-between">
+                                <h5 class="font-semibold">Extra Memory Cost</h5>
+                                <h5 class="fw-bold">$<span>0</span></h5>
+                            </div>
+
+                            <!-- Extra Storage Cost part -->
+                            <div id="extraStorageCost" class="border-bottom py-2 d-flex justify-content-between">
+                                <h5 class="font-semibold">Extra Storage Cost</h5>
+                                <h5 class="fw-bold">$<span>0</span></h5>
+                            </div>
+
+                            <!-- Delivery Charges part -->
+                            <div id="deliveryCharge" class="border-bottom py-2 d-flex justify-content-between">
+                                <h5 class="font-semibold">Delivery Charges</h5>
+                                <h5 class="fw-bold">$<span>0</span></h5>
+                            </div>
+
+                            <!-- Total Price part -->
+                            <div id="totalPrice" class="border-top border-dark py-2 d-flex justify-content-between">
+                                <h5 class="font-semibold">Total Price</h5>
+                                <h5 class="fw-bold">$<span>1299</span></h5>
+                            </div>
+
+                            <!-- Add Promo Code part -->
+                            <div class="border-top mt-1 py-2">
+                                <h5 class="my-2">Add Promo Code</h5>
+                                <form action="" id="promoCodeForm" class="d-flex flex-column flex-md-row ">
+                                    <input type="text" name="" id="inputField" class="form-control me-0 me-md-1 mb-1 mb-md-0">
+                                    <input type="submit" value="Apply" class=" btn btn-danger py-1">
+                                </form>
+                            </div>
+
+
+                        </div>
+
+       
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+         <!-- total price section -->
+         <div class="border-top py-3">
+            <h1 class="text-4xl font-bold text-center" id="total">Total: $<span>1299</span></h1>
+        </div>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
